@@ -1,0 +1,82 @@
+.main
+  width: 80%
+  height: 80vh
+  position: fixed
+  right: 45px
+  top: 108px
+  overflow-y: scroll
+  &-navbar
+    flex-basis: 18%
+    &-select
+      position: absolute
+      top: 20px
+  &-cards
+    flex-basis: 76%
+    margin-left: 42px
+  &-card
+    width: 250px
+    min-height: 350px
+    background-color: #FFFFFF
+    margin-bottom: 15px
+    margin-top: 15px
+    margin-right: 10px
+    border-radius: 2px
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+    position: relative
+    &-image
+      width: auto
+      max-width: 50%
+      height: 145px
+      position: absolute
+      top: 5px
+      left: 5px
+      border-radius: 2px
+      &--wide
+        width: 100%
+        max-width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        z-index: 100
+        border-radius: 2px
+        box-shadow: 0 0 10px rgba(0,0,0,0.5)
+        overflow: hidden
+    &-info
+      width: 53%
+      height: 100px
+      position: absolute
+      top: 0
+      right: 0
+      padding: 5px 2px 2px 5px
+      font-size: 12px
+      display: flex
+      flex-direction: column
+      justify-content: flex-start
+    &-actor
+      width: 100%
+      height: 50px
+      position: absolute
+      bottom: 90px
+      left: 0
+      padding: 3px 5px
+      font-size: 12px
+      display: flex
+      flex-direction: column
+      justify-content: flex-start
+    &-movies
+      width: 100%
+      height: 50px
+      position: absolute
+      bottom: 55px
+      left: 0
+      padding: 3px 5px
+      font-size: 12px
+      display: flex
+      flex-direction: column
+      justify-content: flex-start
+    &-item
+      margin-bottom: 5px
+      color: #283471
+    &-strikediag
+      background: linear-gradient(to left top, transparent 47.75%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%)
